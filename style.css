@@ -1,0 +1,32 @@
+/* FOR TROUBLESHOOTING ONLY */
+/*.header, .content, .information, .quote, .footer{
+    border: 1px solid black;
+}*/
+
+body{
+    display:flex ;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937 ;
+    height: 115px;
+    padding: 20px;
+}
+
+.external-link{
+    display: flex;
+    gap: 75px;
+    
+}
+
+.links{
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight:bolder ;
+}
+
